@@ -1,0 +1,53 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+td {
+    border : solid 10px black;
+    width : 200px;
+    height : 200px;
+    background-size: 100%;
+}
+table{
+    margin : auto;
+    margin-top : 20%;
+    background-color: #000;
+}
+td:hover{
+    border : solid 10px #00F;
+
+}
+#col4{
+    background-image: url("./images/casevide.jpg");
+}
+#col1, #col2, #col3{
+    background-image: url("./images/moutonGauche.jpg");
+}
+#col5, #col6, #col7{
+    background-image: url("./images/moutonDroite.jpg");
+}
+#myModal{
+    text-align: center;
+    background-color: white; 
+    display: none;
+    position: fixed;
+    padding-left : 50px;
+    padding-right : 50px;
+    left:39.8%;
+    top: 38.5%;
+    border-radius: 170px;
+    border : solid 20px #000;
+    box-shadow: white 0px 0px 20px;
+    font-size: 40px;
+}
+#resetButton{
+    margin: auto;
+    padding-top: 120px;
+    width: 120px;
+}
+#resetButton:hover{
+    padding-top: 110px; 
+    width: 140px;
+}
